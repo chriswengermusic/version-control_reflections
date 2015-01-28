@@ -1,0 +1,45 @@
+To start notepad++ from PowerShell, use:
+start notepad++ (full filename path)
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It made it very easy, rather than trying to find it manually, as I've done in the past.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    As snippets interact with each others, there is a strong possibility that unintended consequences 
+	will occur. Version control and the ability to easily contrast versions will streamline workflow.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The glaring disadvantage is that if I fail to commit frequently enough, big changes might be missed, therefore
+making it difficult to assess what, exactly has changed and the resultant output. this will likely make debugging
+difficult.
+    the advantage is that with disciplined, logical, frequent commits, the history will be very easy to track and
+maintain. As I search for issues, they will be easily tracked through the comments.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is designed fro code, and projects are almost always made up of multiple, interrelated files. To
+require separate tracking, the usability of the program as a whole would be severely compromised. Other version
+control systems are not specifically code-oriented, and separate file tracking is more conventional and logical.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log displays all of the commits in a repo, and git diff allows for the quick and easy comparison between
+two commits for debugging/development purposes.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Always having the ability to revert back to a previous version, as well as to find and fix bugs in new code
+allows for impunity in design. I can always just go back, or pinpoint when a particular feature began to fail, etc.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
