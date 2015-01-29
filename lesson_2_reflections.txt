@@ -30,3 +30,9 @@ running. With branches, that is no longer a fear: change whatever I like, and co
 different branch, to merge or destroy later. Also, with meaningful descriptions, branches can 
 be easily accessed when desired.
 
+How do the diagrams help you visualize the branch structure?
+
+The diagrams are a good tool to see the progression of commits and branches, but also the lineage
+and reachability, all in a snapshot. To create a new branch from an existing, non-reachable commit, 
+use "git checkout -b new_branch_name". This creates a new branch name with the current commit as 
+its parent.
