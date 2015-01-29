@@ -11,6 +11,8 @@ The working directory is what's actively changing, or at least able to be change
 area is a "pre-archive" of sorts: not yet tucked away, but almost safe from unintentional edits.
 The staging area offers the ability to compare and make sure you're doing what you want to be
 doing, when you want to be doing it. 
+Use "git diff" with no arguments to compare working directory and staging area.
+Use "git diff --staged" to compare staging area and most recent commit.
 
 How can you use the staging area to make sure you have one commit per logical change?
 
@@ -27,3 +29,4 @@ I was constantly worried, as I made changes, that it would "break" the code i'd 
 running. With branches, that is no longer a fear: change whatever I like, and commit to a 
 different branch, to merge or destroy later. Also, with meaningful descriptions, branches can 
 be easily accessed when desired.
+
