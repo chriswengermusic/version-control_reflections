@@ -42,4 +42,9 @@ allows for impunity in design. I can always just go back, or pinpoint when a par
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
+    As I am unable to save to the root directory, I don't really have my workspace set up as I'd like to. However,
+	I am anxious to start using Git on my instrumental music application project, though I have a good deal of
+	learning left to do before I can proceed with that. so in the meantime, I'll use it for my Udacity projects.
+	
+	
+Remember with git diff that the OLDER file is the first argument.
