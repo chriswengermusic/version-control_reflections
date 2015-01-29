@@ -1,0 +1,20 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+The initialization process attaches the .git file to the repository, allowing git to do its
+magic. Without this important element, there is no place for git to store the metadata that
+tracks changes and versions of all the files in the repo.
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+The working directory is what's actively changing, or at least able to be changed. The staging
+area is a "pre-archive" of sorts: not yet tucked away, but almost safe from unintentional edits.
+The staging area offers the ability to compare and make sure you're doing what you want to be
+doing, when you want to be doing it. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+With the ability to utilize git diff (no arguments), I can easily contrast the working directory
+with the staging area, double checking the changes I'm committing. This allows me to ensure that
+the difference between working directory and staging area, as well as staging area to commit1
+are logical changes, and incremental as I intend them to be.
