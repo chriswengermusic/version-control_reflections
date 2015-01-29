@@ -18,3 +18,12 @@ With the ability to utilize git diff (no arguments), I can easily contrast the w
 with the staging area, double checking the changes I'm committing. This allows me to ensure that
 the difference between working directory and staging area, as well as staging area to commit1
 are logical changes, and incremental as I intend them to be.
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+
+I have already programmed enough to have needed branches. I wish I knew then what I know now.
+I was constantly worried, as I made changes, that it would "break" the code i'd finally gotten 
+running. With branches, that is no longer a fear: change whatever I like, and commit to a 
+different branch, to merge or destroy later. Also, with meaningful descriptions, branches can 
+be easily accessed when desired.
