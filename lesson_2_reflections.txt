@@ -36,3 +36,10 @@ The diagrams are a good tool to see the progression of commits and branches, but
 and reachability, all in a snapshot. To create a new branch from an existing, non-reachable commit, 
 use "git checkout -b new_branch_name". This creates a new branch name with the current commit as 
 its parent.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When two branches are merged, the code in both is combined to incorporate changes made in both places.
+This way, two separate versions can be meaningfully and successfully combined into one unified
+version with features from both. We represent it as two parents forming a new "child" commit, which then
+carries the master branch forward, because that is exactly what's happening.
