@@ -2,3 +2,11 @@ When would you want to use a remote repository rather than keeping all your work
 
 Obviously, anytime I want to share my work with others, this is the most convenient means
 to accomplish that.
+
+Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+
+If someone else is collaborating with me via GitHub and changes something and makes a commit,
+I want the opportunity to review, accept and commit those changes before they are merged into 
+my master or other branch. If git and GitHub automatically synced, I wouldn't have this ability.
+
