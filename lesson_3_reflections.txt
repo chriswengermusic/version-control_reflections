@@ -24,3 +24,6 @@ separately on their own machines. Clones are necessary for complex projects to b
 environment, and branches are places for individual (or collaborative) development to take place.
 
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+If another contributor updates the remote, you have a version without those changes to compare to.
