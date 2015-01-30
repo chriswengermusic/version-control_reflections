@@ -43,3 +43,8 @@ When two branches are merged, the code in both is combined to incorporate change
 This way, two separate versions can be meaningfully and successfully combined into one unified
 version with features from both. We represent it as two parents forming a new "child" commit, which then
 carries the master branch forward, because that is exactly what's happening.
+
+NOTE::::
+When a conflict happnes (because a line has been edited distinctly in one or more branches), Git will
+not auto-merge. Search for "HEAD" in the affected file (listed when the merge is aborted), and manually
+merge the code. Running 'git commit' at this point then finishes the merge.
