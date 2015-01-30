@@ -4,6 +4,7 @@ The initialization process attaches the .git file to the repository, allowing gi
 magic. Without this important element, there is no place for git to store the metadata that
 tracks changes and versions of all the files in the repo.
 
+
 How is the staging area different from the working directory and the repository? 
 What value do you think it offers?
 
@@ -14,12 +15,14 @@ doing, when you want to be doing it.
 Use "git diff" with no arguments to compare working directory and staging area.
 Use "git diff --staged" to compare staging area and most recent commit.
 
+
 How can you use the staging area to make sure you have one commit per logical change?
 
 With the ability to utilize git diff (no arguments), I can easily contrast the working directory
 with the staging area, double checking the changes I'm committing. This allows me to ensure that
 the difference between working directory and staging area, as well as staging area to commit1
 are logical changes, and incremental as I intend them to be.
+
 
 What are some situations when branches would be helpful in keeping your history organized? 
 How would branches help?
@@ -30,12 +33,14 @@ running. With branches, that is no longer a fear: change whatever I like, and co
 different branch, to merge or destroy later. Also, with meaningful descriptions, branches can 
 be easily accessed when desired.
 
+
 How do the diagrams help you visualize the branch structure?
 
 The diagrams are a good tool to see the progression of commits and branches, but also the lineage
 and reachability, all in a snapshot. To create a new branch from an existing, non-reachable commit, 
 use "git checkout -b new_branch_name". This creates a new branch name with the current commit as 
 its parent.
+
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
@@ -48,3 +53,9 @@ NOTE::::
 When a conflict happnes (because a line has been edited distinctly in one or more branches), Git will
 not auto-merge. Search for "HEAD" in the affected file (listed when the merge is aborted), and manually
 merge the code. Running 'git commit' at this point then finishes the merge.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+If git always merged automatically, it would compromise code, since it would decide which version to keep,
+or be amalgamating in erroneous fashion. to merge manually every time, however, would be unnecessarily tedious.
