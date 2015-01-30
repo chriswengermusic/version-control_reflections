@@ -10,3 +10,17 @@ If someone else is collaborating with me via GitHub and changes something and ma
 I want the opportunity to review, accept and commit those changes before they are merged into 
 my master or other branch. If git and GitHub automatically synced, I wouldn't have this ability.
 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork is my version of someone else's repo. changes I make to mine do not show or affect the original
+repo, though I can request they be merged. Similarly, this could be reversed with my repo in someone 
+else's fork. Clones are a local version of a repo, and are only a clone at one point in time: they do
+not synchronize. It's more like a picture I take of a repo, and store it on my local machine. A branch
+is a "thread" of development within a repo.
+
+Forks are ideal for collaboration, as they can be merged at a later time after two people have developed
+separately on their own machines. Clones are necessary for complex projects to be brought to the local
+environment, and branches are places for individual (or collaborative) development to take place.
+
+
