@@ -27,3 +27,16 @@ environment, and branches are places for individual (or collaborative) developme
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 If another contributor updates the remote, you have a version without those changes to compare to.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Certainly, collaboration could happen with emailing files back and forth. Difficulties to this method 
+include:
+  -- Not as quick
+  -- Who decides what stays and what goes when there are discrepancies?
+  -- sometimes code can't be emailed
+
+I'm not sure anything would be easier, but perhaps I'm just forgetting something. GitHub seems to be
+optimized for code sharing and collaboration. Using branches, forks and pull requests, collaborators
+can easily navigate between different versions of code as they evolve, almost in real-time.
