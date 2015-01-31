@@ -40,3 +40,17 @@ include:
 I'm not sure anything would be easier, but perhaps I'm just forgetting something. GitHub seems to be
 optimized for code sharing and collaboration. Using branches, forks and pull requests, collaborators
 can easily navigate between different versions of code as they evolve, almost in real-time.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits 
+does each approach have?
+
+To me, the separate branch is useful when I'm making bigger changes or chenges that affect the running 
+of the code in master, i.e., changes that will "break" master. A separate branch would also be useful
+if I'm working with someone else on the same code. Then all the merging/pulling goodness can stay out
+of master until we're ready for it to "go live."
+
+It's certainly simpler to make changes directly in master, but in my opinion, riskier, if there's actually
+a version that "works."
+
+
