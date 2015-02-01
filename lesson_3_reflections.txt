@@ -54,3 +54,9 @@ It's certainly simpler to make changes directly in master, but in my opinion, ri
 a version that "works."
 
 
+Here's how to reconcile a change made on GitHub and a conflicting change made to my local fork:
+1. Add the original repo as a remote (upstream) in my clone
+2. Pull the master from the original repo
+3. Merge that master into my "change" branch (locally)
+4. Push to my fork on GitHub (auto updates pull request)
+
